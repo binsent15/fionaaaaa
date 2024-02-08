@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bgpink.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+
+}
+
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+.box1{
+    background: rgba(255, 255, 255, .50);
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, .25);
+    box-shadow: 3px 5px 5px #b76e79;
+    padding-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    animation: fade-up 2s;
+}
+
+.hi{
+    color: #b76e79;
+    font-family: 'Protest Riot', sans-serif;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 35px;
+    animation: fade-up 3s;
+}
+
+.name{
+    color: #b76e79;
+    font-family: 'Protest Riot', sans-serif;
+    margin-left: 220px;
+    font-size: 40px;
+    font-weight: lighter;
+    animation: fade-up 4s;
+}
+
+.hr1{
+    color: #b76e79;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    animation: fade-up 4.5s;
+}
+
+.a1{
+    margin-left: 100px;
+    cursor: pointer;
+    animation: fade-up 6s;
+}
+
+.button1{
+    margin-top: 50px;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 25px;
+    color:  #b76e79;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px;
+    cursor: pointer;
+}
+
+.button1:hover{
+   box-shadow: 0px 0px 15px;
+   transform: translateY(-3px);
+}
+
+.a2{
+    margin-left: 140px;
+    cursor: pointer;
+    animation: fade-up 8s;
+}
+
+.a3{
+    margin-left: 140px;
+    cursor: pointer;
+    animation: fade-up 10s;
+}
+
+.a4{
+    margin-left: 100px;
+    cursor: pointer;
+    animation: fade-up 12s;
+}
+
+.a5{
+    margin-left: 133px;
+    cursor: pointer;
+    animation: fade-up 14s;
+}
+
+.a6{
+    margin-left: 165px;
+    cursor: pointer;
+    animation: fade-up 16s;
+}

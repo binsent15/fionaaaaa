@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bgpink.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+
+}
+
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+.container{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 1000px;
+    background: rgba(255, 255, 255, .50);
+    border: 1px white solid;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    box-shadow: 5px 15px 10px gray;
+    animation: fade-up 2s;
+}
+
+.container2{
+    margin-top: 30px;
+    background: rgba(255, 255, 255, .50);
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 5px 15px 10px gray;
+    margin-left: 400px;
+    margin-top: -515px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    animation: fade-up 4s;  
+}
+
+.hr2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    animation: fade-up 4s;
+}
+
+.songs{
+    font-family: 'Protest Riot', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #b76e79;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    animation: fade-up 10s;
+}
+
+.play2{
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 4px 7px 5px gray;
+    animation: fade-up 4s;
+}
+
+.h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: fade-up 4s;
+}
+
+.p1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Single Day', cursive;
+    margin-top: 10px;
+    animation: fade-up 6s;
+}
+
+.link{
+    margin-left: 20px;
+    margin-right: 100px;
+    font-family: 'Single Day', cursive;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color:  #b76e79;
+    font-weight: bolder;
+    animation: fade-up 8s;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.06%;
+    border-radius: 20px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 225px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.songcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play1{
+    width: 225px;
+    margin-left: px;
+    position: relative;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 8s;
+}
+
+.play3{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 10s;
+}
+
+.play4{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 12s;
+}
+
+.play5{
+    width: 225px;
+    position: relative;
+    margin-left: 0px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 14s;
+}
+
+.play6{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 14s;
+}
+
+.play7{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 16s;
+}
+
+.play8{
+    width: 225px;
+    position: relative;
+    margin-left: 0px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 18s;
+}
+
+.play9{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 20s;
+}
+
+.play10{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 21s;
+}
+
+.play11{
+    width: 225px;
+    position: relative;
+    margin-left: px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 22s;
+}
+
+.play12{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 23s;
+}
+
+.play13{
+    width: 225px;
+    position: relative;
+    margin-left: 70px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 24s;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Single Day', cursive;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.content h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Single Day', cursive;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 1s;
+}
+
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+.h3{
+    font-family: 'Protest Riot', sans-serif;
+    text-decoration: none;
+    color: skyblue;
+    font-size: 5px;
+}
+
+.fp{
+    text-decoration: none;
+    font-family: 'Protest Riot', sans-serif;
+    color:#b76e79;   
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    animation: fade-up 26s;
+}

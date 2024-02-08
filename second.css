@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+body{
+    background-image: url(bgblue.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+
+}
+
+.div1{
+    background: rgba(255, 255, 255, .50);
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, .25);
+    box-shadow: 3px 5px 5px #b76e79;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    animation: fade-up 2s;
+}
+
+.pekturs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    animation: fade-up 2s;
+}
+
+.hr1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    animation: fade-up 2s;
+}
+
+.text1{
+    font-family: 'Single Day', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    animation: fade-up 2s;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wrapper2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wrapper3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wrapper4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.wrapper5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.image{
+    width: 300px;
+    position: relative;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 2s;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.image2{
+    width: 300px;
+    position: relative;
+    margin-left: 150px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 4s;
+}
+
+.image3{
+    width: 300px;
+    position: relative;
+    margin-left: 150px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fade-up 6s;
+}
+
+.image4{
+    width: 300px;
+    position: relative;
+    margin-left: 20px;
+    box-shadow: 5px 15px 15px gray;
+    border-radius: 20px;
+    animation: fade-up 8s;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.06%;
+    border-radius: 20px;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
+.content p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Single Day', cursive;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.content h3{
+    font-size: 40px;
+    color: white;
+    font-family: 'Single Day', cursive;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 1s;
+}
+
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+.h3{
+    font-family: 'Protest Riot', sans-serif;
+    text-decoration: none;
+    color: skyblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}

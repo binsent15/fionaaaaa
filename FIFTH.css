@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(thirdbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+
+}
+
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+}
+
+.firstrow{
+    background: rgba(255, 255, 255, .50);
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, .25);
+    padding-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    animation: fade-up 2s;
+}
+
+.h31{
+    font-family: 'Gaegu', sans-serif;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 5px 5px #b76e79;
+    animation: fade-up 4s;
+}
+
+.hr1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    animation: fade-up 4s;
+}
+
+.firstcolumn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    animation: fade-up 6s;
+}
+
+.secondcolumn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    animation: fade-up 8s;
+}
+
+.img1{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    animation: fade-up 4s;
+}
+
+.img2{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    margin-left: 100px;
+    animation: fade-up 5s;
+}
+
+.img3{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    margin-left: 100px;
+    animation: fade-up 6s;
+}
+
+.img4{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    animation: fade-up 7s;
+}
+
+.img5{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    margin-left: 100px;
+    animation: fade-up 8s;
+}
+
+.img6{
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 10px gray;
+    margin-left: 100px;
+    animation: fade-up 9s;
+}
+
+.p1{
+    font-family: 'Single Day', cursive;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: purple;
+    text-shadow: 3px 5px 5px gray;
+    animation: fade-up 6s;
+}
+
+.fp{
+    font-family: 'Protest Riot', sans-serif;
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    animation: fade-up 10s;
+}

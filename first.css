@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes cursor {
+    50% {
+       border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    50% {
+      from {width: 0;}
+    }
+}
+
+body{
+    background-image: url(bgfirst.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+
+}
+
+.div1{
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 3px 5px 5px #b76e79;
+    border-radius: 20px;
+    border: 1px white solid;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 1030px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    animation: fade-left 2s;
+}
+
+.nikipic{
+    border-radius: 150px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.song{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 20px;
+    color: #b76e79;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.hr1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.p1{
+    font-family: 'Single Day', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    animation: 
+        typings 2s steps(),
+        cursor .4s step-end infinite alternate;
+}
+
+
+.div2{
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 3px 5px 5px #b76e79;
+    border-radius: 20px;
+    border: 1px white solid;
+    margin-left: 340px;
+    margin-top: -710px;
+    padding-bottom: 20px;
+    animation: 
+        typings 2s steps(),
+        cursor .4s step-end infinite alternate;
+}
+
+.name2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    color: #b76e79;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: 
+        typings 2s steps(),
+        cursor .4s step-end infinite alternate;
+}
+
+.hr2{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #b76e79;
+    
+}
+
+.p2{
+    font-family: 'Single Day', cursive;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.frontpage{
+    font-family: 'Protest Riot', sans-serif;
+    text-decoration: none;
+    color: #b76e79;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 500px;
+}
