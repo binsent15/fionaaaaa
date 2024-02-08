@@ -3,16 +3,18 @@
     padding: 0;
 }
 
-@keyframes cursor {
-    50% {
-       border-color: transparent;
+@keyframes fade-up {
+    
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
     }
-}
 
-@keyframes typing {
-    50% {
-      from {width: 0;}
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
     }
+
 }
 
 body{
@@ -35,7 +37,7 @@ body{
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    animation: fade-left 2s;
+    animation: fade-up 3s;
 }
 
 .nikipic{
@@ -43,6 +45,7 @@ body{
     width: 250px;
     overflow: hidden;
     position: relative;
+    animation: fade-up 5s;
 }
 
 .song{
@@ -52,12 +55,14 @@ body{
     justify-content: center;
     display: flex;
     margin-top: 5px;
+    animation: fade-up 6s;
 }
 
 .hr1{
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+     animation: fade-up 6s;
 }
 
 .p1{
@@ -65,9 +70,7 @@ body{
     font-size: 20px;
     margin-top: 20px;
     width: 100%;
-    animation: 
-        typings 2s steps(),
-        cursor .4s step-end infinite alternate;
+    animation: fade-up 8s;
 }
 
 
@@ -79,9 +82,7 @@ body{
     margin-left: 340px;
     margin-top: -710px;
     padding-bottom: 20px;
-    animation: 
-        typings 2s steps(),
-        cursor .4s step-end infinite alternate;
+     animation: fade-up 9s;
 }
 
 .name2{
@@ -92,15 +93,14 @@ body{
     color: #b76e79;
     margin-top: 10px;
     margin-bottom: 10px;
-    animation: 
-        typings 2s steps(),
-        cursor .4s step-end infinite alternate;
+    animation: fade-up 10s;
 }
 
 .hr2{
     margin-left: 40px;
     margin-right: 40px;
     color: #b76e79;
+     animation: fade-up 10s;
     
 }
 
@@ -110,6 +110,7 @@ body{
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
+     animation: fade-up 12s;
 }
 
 .frontpage{
@@ -119,4 +120,5 @@ body{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 500px;
+    animation: fade-up 12s;
 }
